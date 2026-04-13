@@ -1,0 +1,53 @@
+body {
+  font-family: Arial;
+  background: #ace4be;
+  text-align: center;
+ 
+}
+
+button {
+  padding: 6px 12px;
+  background: rgb(123, 129, 126);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(192, 192, 197);
+}
+.card {
+  
+  border: 1px solid #52770c;
+  margin: 15px auto;
+  padding: 20px;
+  width: 60%;
+  border-radius: 10px;
+  background: rgb(247, 240, 240);
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+.navbar {
+  background: #333;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #00c3ff;
+}
