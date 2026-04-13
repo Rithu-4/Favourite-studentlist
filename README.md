@@ -1,3 +1,76 @@
+# 🎓 Favourite Student List App
+
+A simple React application built using Vite that allows users to manage a list of favourite students. This project demonstrates the use of React Router for navigation and Context API for global state management.
+
+---
+
+## 🚀 Features
+
+* 📄 View list of students
+* ⭐ Add students to favourites
+* ❌ Remove students from favourites
+* 🔐 Simple Login & Signup pages
+* 🔁 Navigation between pages without reload (React Router)
+* 🌐 Global state management using Context API
+* 🚫 Prevent duplicate favourites
+* 📭 Displays message when no favourites are added
+
+---
+
+## 🛠️ Tech Stack
+
+* React JS (Vite)
+* React Router DOM
+* Context API
+* CSS (Basic Styling)
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│   └── Navbar.jsx
+├── context/
+│   ├── StudentContext.jsx
+│   └── AuthContext.jsx
+├── pages/
+│   ├── StudentList.jsx
+│   ├── FavouriteStudents.jsx
+│   ├── Login.jsx
+│   └── Signup.jsx
+├── App.jsx
+├── main.jsx
+
+---
+
+## ▶️ How to Run
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 💡 Learning Outcomes
+
+* Understanding React functional components
+* Using React Router for multi-page navigation
+* Managing global state with useContext
+* Handling dynamic rendering with map()
+* Implementing basic authentication UI
+
+---
+
+## 📌 Note
+
+This project uses a simple frontend-only authentication (no backend). It is designed for learning purposes.
+
+---
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
